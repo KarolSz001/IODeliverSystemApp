@@ -43,7 +43,7 @@
           <configuration>
             <archive>
               <manifest>
-                <mainClass>com.app.exception.App</mainClass>
+                <mainClass>com.app.main.App</mainClass>
               </manifest>
             </archive>
             <descriptorRefs>

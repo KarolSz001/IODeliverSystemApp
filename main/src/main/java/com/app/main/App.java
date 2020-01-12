@@ -8,7 +8,6 @@ import org.springframework.context.support.AbstractApplicationContext;
 public class App {
 
 
-
     public static void main(String[] args) {
 
 
@@ -19,11 +18,10 @@ public class App {
         sb.append(" ----------------------------------------------------------------------------- \n");
         System.out.println(sb.toString());
 
+
         AbstractApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);
         ControlService controlService = context.getBean(ControlService.class);
         controlService.controlLoop();
-
-
 
     }
 }
